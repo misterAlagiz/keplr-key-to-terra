@@ -22,8 +22,8 @@ converts keplr private key to terra private key
   * must be set:
     * **KEPLR_PRIVATE_KEY** - keplr private key without 0x
     * **TERRA_ADDRESS_IN_KEPLR** - keplr terra public address (terra1...)
-    * **NAME** - wallet name imported to terra station (set to keplrwallet by deafult)
-    * [optional] **PASSWORD_IN_TERRA** - password for the wallet when imported to terra station
+    * [optional] **NAME** - wallet name imported to terra station (set to keplrwallet by deafult)
+    * **PASSWORD_IN_TERRA** - password for the wallet when imported to terra station
 
 ## execution
   ```bash
