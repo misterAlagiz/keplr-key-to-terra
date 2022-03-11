@@ -29,7 +29,7 @@ export const encrypt = (msg, pass) => {
 
 const KEPLR_PRIVATE_KEY = "***";
 const TERRA_ADDRESS_IN_KEPLR = "***";
-const NAME = "keplr_wallet";
+const NAME = "keplrwallet";
 const PASSWORD_IN_TERRA = "***";
 const ENCRYPTED_KEY = encrypt(KEPLR_PRIVATE_KEY, PASSWORD_IN_TERRA);
 const key = Buffer.from(`{
