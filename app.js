@@ -3,7 +3,7 @@ import CryptoJS from 'crypto-js';
 const keySize = 256;
 const iterations = 100;
 
-export const encrypt = (msg, pass) => {
+const encrypt = (msg, pass) => {
   try {
     const salt = CryptoJS.lib.WordArray.random(128 / 8);
 
