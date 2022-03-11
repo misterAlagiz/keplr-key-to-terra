@@ -34,3 +34,7 @@ converts keplr private key to terra private key
   npm start
   ```
 * console should print the private key importable to terra
+
+## import to terra station
+* use printed key in the console as private key
+* use PASSWORD_IN_TERRA as password
