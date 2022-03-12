@@ -2,7 +2,9 @@
 
 ## description
 when keplr wallet is created with google account - it only allows to export private key, not the seed phrase.
+
 this private key cannot be imported as is into terra station.
+
 code in this repo converts keplr private key to importable terra private key
 
 ## prerequisites
