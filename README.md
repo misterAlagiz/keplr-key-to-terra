@@ -1,20 +1,15 @@
 # keplr-key-to-terra
 
 ## description
-converts keplr private key to terra private key
+converts keplr private key to importable terra private key
 
 ## prerequisites
 * the following installed of recent versions: 
   * node with npm
-  * yarn (optional)
 
 ## setup
 * clone the repo
 * run 
-  ```bash
-  yarn install 
-  ```
-  or 
   ```bash
   npm install
   ```
@@ -27,14 +22,10 @@ converts keplr private key to terra private key
 
 ## execution
   ```bash
-  yarn start 
-  ```    
-  or 
-  ```bash
   npm start
   ```
 * console should print the private key importable to terra
 
-## import to terra station
+## import wallet to terra station
 * use printed key in the console as private key
 * use PASSWORD_IN_TERRA as password
